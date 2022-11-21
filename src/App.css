@@ -1,0 +1,75 @@
+.App {
+  padding: 50px 100px;
+}
+
+.searchForm input {
+  border: 2px solid rgb(130, 189, 130);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.searchForm button {
+  background-color: rgb(130, 189, 130);
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.recipes-container {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 25px;
+  background-color: #777;
+  position: relative;
+}
+
+.recipe:nth-child(odd) {
+  background-color: #999;
+}
+
+.recipe a {
+  text-decoration: none;
+  background-color: goldenrod;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.recipe .title {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+}
+
+.recipe .title img {
+  margin-right: 20px;
+}
+
+.recipe ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+
+.recipe li {
+  margin: 5px 5px 0px 0px;
+  padding: 5px;
+  background-color: rgba(218, 165, 32, 0.75);
+  color: white;
+}
